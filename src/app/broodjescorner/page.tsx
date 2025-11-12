@@ -181,7 +181,7 @@ export default function BroodjescornerPage() {
                 Onze Menukaart
               </h2>
               <p className="text-lg text-neutral-600">
-                Bekijk ons volledige aanbod van broodjes, uitsmijters, tosti&apos;s, koffie en meer
+                Bekijk ons volledige aanbod van verse broodjes, koffie en gebak uit eigen oven
               </p>
             </div>
 

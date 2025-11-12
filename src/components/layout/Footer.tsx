@@ -131,6 +131,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-neutral-800 py-6 text-center text-sm">
           <p>© {new Date().getFullYear()} Broers Auto Wellness. Alle rechten voorbehouden.</p>
+          <p className="text-neutral-500 text-xs mt-2">v1.1.0</p>
         </div>
       </Container>
     </footer>

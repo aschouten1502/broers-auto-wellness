@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Broers Auto Wellness - Autowasserette & Schoonmaak Specialist Uithoorn',
-  description: 'Dé schoonmaak specialist voor uw auto met 20 jaar ervaring! Professionele interieur en exterieur reiniging, carwash en verse broodjes in Uithoorn.',
+  description: 'Dé schoonmaak specialist voor uw auto met 30 jaar ervaring! Professionele interieur en exterieur reiniging, carwash en verse broodjes in Uithoorn.',
   keywords: ['autowas', 'car cleaning', 'interieur reiniging', 'exterieur reiniging', 'wasstraat', 'Uithoorn', 'Broers Auto Wellness', 'broodjescorner'],
   authors: [{ name: 'Broers Auto Wellness' }],
   manifest: '/manifest.json',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Broers Auto Wellness - Autowasserette & Schoonmaak Specialist',
-    description: 'Professionele auto reiniging en wasstraat in Uithoorn. 20 jaar ervaring!',
+    description: 'Professionele auto reiniging en wasstraat in Uithoorn. 30 jaar ervaring!',
     url: 'https://www.broersautowellness.nl',
     siteName: 'Broers Auto Wellness',
     locale: 'nl_NL',

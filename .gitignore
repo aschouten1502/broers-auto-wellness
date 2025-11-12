@@ -40,3 +40,12 @@ next-env.d.ts
 /public/workbox-*.js.map
 /public/worker-*.js.map
 /public/fallback-*.js
+
+# Command output files
+nul
+**/nul
+
+# Optimized images (from optimize-images script)
+*.optimized.png
+*.optimized.jpg
+*.optimized.jpeg
