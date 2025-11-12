@@ -36,18 +36,14 @@ export default function NotFound() {
 
             {/* Acties */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button asChild variant="primary" size="lg">
-                <Link href="/" className="flex items-center gap-2">
-                  <Home className="w-5 h-5" />
-                  Terug naar Home
-                </Link>
+              <Button href="/" variant="primary" size="lg" className="gap-2">
+                <Home className="w-5 h-5" />
+                Terug naar Home
               </Button>
 
-              <Button asChild variant="secondary" size="lg">
-                <Link href="/contact" className="flex items-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  Neem Contact Op
-                </Link>
+              <Button href="/contact" variant="secondary" size="lg" className="gap-2">
+                <Phone className="w-5 h-5" />
+                Neem Contact Op
               </Button>
             </div>
 
