@@ -1,0 +1,82 @@
+{
+  "name": "Broers Auto Wellness",
+  "short_name": "Broers",
+  "description": "Professionele auto reiniging, carwash en verse broodjes in Uithoorn. 30 jaar ervaring!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f8b84e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Car Cleaning",
+      "short_name": "Reiniging",
+      "description": "Professionele auto interieur en exterieur reiniging",
+      "url": "/car-cleaning",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Carwash",
+      "short_name": "Wasstraat",
+      "description": "Moderne wasstraat en 24/7 wasboxen",
+      "url": "/carwash",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Broodjescorner",
+      "short_name": "Broodjes",
+      "description": "Verse broodjes en koffie",
+      "url": "/broodjescorner",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Neem contact op",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "categories": ["business", "automotive", "food"],
+  "lang": "nl",
+  "dir": "ltr"
+}

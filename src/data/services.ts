@@ -1,0 +1,66 @@
+import type { Service } from '@/lib/types'
+
+export const services: Service[] = [
+  {
+    id: 'car-cleaning',
+    title: 'Car Cleaning',
+    description: 'Professionele interieur en exterieur reiniging van uw auto',
+    icon: 'Sparkles',
+    image: '/images/services/cleaning.jpg',
+    href: '/car-cleaning',
+    features: [
+      'Dashboard polijsten en herstellen van de glans',
+      'Stoelen en bekleding reinigen',
+      'Kunststof interieur behandelen met UV-beschermende dressing',
+      'Tapijt stofzuigen en matten reinigen',
+      'Kofferbak reinigen',
+      'Ramen wassen',
+      'Leren stoelen voeden en behandelen',
+    ],
+  },
+  {
+    id: 'carwash',
+    title: 'Carwash',
+    description: 'De beste en meest moderne wasstraat van Uithoorn en omstreken',
+    icon: 'Droplets',
+    image: '/images/services/carwash.jpg',
+    href: '/carwash',
+    features: [
+      'Moderne wasstraat met de nieuwste technieken',
+      'Grondige reiniging en wax behandeling',
+      'Polijstmachine werk voor het verwijderen van krassen',
+      'Herstel van de kleur en optimale glans',
+      'Beschermende coating',
+    ],
+  },
+  {
+    id: 'broodjescorner',
+    title: 'Broodjescorner',
+    description: '6 dagen per week verse broodjes van lokale leveranciers',
+    icon: 'Coffee',
+    image: '/images/services/coffee.jpg',
+    href: '/broodjescorner',
+    features: [
+      'Dagelijks verse broodjes van bakkerij Westerbos',
+      'Vers vlees van slagerijen Woorts, Heemskerk, Kaddour & Adina',
+      'Warme en koude broodjes',
+      'Koffie uit La Marzocco apparaat',
+      'Gebak vers uit eigen oven',
+      'Bezorgen vanaf €8 of afhalen',
+    ],
+  },
+  {
+    id: 'wasboxen',
+    title: 'Wasboxen',
+    description: '24/7 zelf wassen bij onze moderne wasboxen',
+    icon: 'Clock',
+    image: '/images/services/wasboxen.jpg',
+    href: '/carwash#wasboxen',
+    features: [
+      '24 uur per dag, 7 dagen per week beschikbaar',
+      'Moderne wasboxen',
+      'Zelf uw auto wassen',
+      'Betaling met pin of contant',
+    ],
+  },
+]
