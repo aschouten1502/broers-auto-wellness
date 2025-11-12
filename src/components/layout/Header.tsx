@@ -35,7 +35,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="relative w-32 h-22 md:w-40 md:h-28">
+            <div className="relative w-28 h-20 md:w-36 md:h-24">
               <Image
                 src="/images/logos/logo.png"
                 alt="Broers Auto Wellness"

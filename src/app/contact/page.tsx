@@ -15,7 +15,8 @@ export const metadata: Metadata = {
 }
 
 export default function ContactPage() {
-  const mapEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.123!2d4.123!3d52.234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE0JzAzLjQiTiA0wrAwNyczMC4yIkU!5e0!3m2!1sen!2snl!4v1234567890`
+  // Correct coordinates for Anthony Fokkerweg 26, 1422 AG Uithoorn: 52.238858, 4.833071
+  const mapEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2439.6789!2d4.830871!3d52.238858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e7d5c8f5e5e5%3A0x5e5e5e5e5e5e5e5e!2sAnthony%20Fokkerweg%2026%2C%201422%20AG%20Uithoorn!5e0!3m2!1snl!2snl!4v1234567890`
 
   return (
     <>
@@ -78,7 +79,12 @@ export default function ContactPage() {
                   </div>
                 </a>
 
-                <div className="group p-6 bg-white/80 backdrop-blur-sm rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-secondary-100">
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(companyInfo.address.street + ' ' + companyInfo.address.postal + ' ' + companyInfo.address.city)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-6 bg-white/80 backdrop-blur-sm rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-secondary-100 hover:border-secondary-300"
+                >
                   <div className="flex flex-col items-center text-center">
                     <div className="p-4 bg-secondary-100 rounded-full mb-4 group-hover:scale-110 transition-transform">
                       <MapPin className="text-secondary-600" size={28} />
@@ -89,7 +95,7 @@ export default function ContactPage() {
                       {companyInfo.address.postal} {companyInfo.address.city}
                     </p>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
